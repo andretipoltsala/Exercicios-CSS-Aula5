@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+figure{
+    width: 430px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    border-radius: 40px;
+    box-shadow: 8px 8px 8px black;
+}
+.cafe{
+    position: relative;
+    width: 100%;
+}
+.title{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    font-size: 1em;
+    padding-right: 13px;
+}
+figcaption{
+    background-color: #fff;
+    padding-left: 12px;
+}
+
+h1{
+    display: inline;
+}
+
+.dist{
+    display: inline;
+    
+}
+.estrelas{
+    font-size: 1em;
+}
+.estrelas img{
+    width: 180px;
+}
+.reserva{
+    text-align: center;
+    font-size: 1.5em;
+    color: rgb(150, 240, 243);
+}
+.dias{
+    padding-top: 20px;
+    text-align: center;
+    font-size: 1.2em;
+}
+
+.horarios{
+    display: flex;
+    justify-content: baseline;
+    align-items: center;
+}
+.horarios img{
+    padding: 0px 15px;
+}
+
+.horarios div{
+    padding-right: 10px;
+}
+
+h3{
+    padding: 10px 0px;
+    font-size: 1.3em;
+}
+p{
+    font-size: 1.2em;
+    padding: 0 0 20px 0;
+}
+.clock{
+    display: inline;
+}

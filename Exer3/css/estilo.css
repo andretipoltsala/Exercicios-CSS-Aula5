@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+}
+body{
+    background-image: url(../imagens/bg.jpg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+#formulario{
+    width: 480px;
+    background-color: #f6eada9d;
+    border-radius: 10px;
+}
+
+#formulario p{
+    text-align: center;
+    font-size: 3em;
+    margin: 12px;
+}
+
+#formulario form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 19px;
+}
+
+#formulario form a{
+    text-align: end;
+    padding-right: 20px;
+}
+
+.campos{
+    width: 360px;
+    height: 27px;
+    margin: 6px;
+}
+
+#logar{
+    padding: 20px;
+    background-color: rgb(221, 144, 0);
+    margin: 10px;
+    border-radius: 15px;
+}
